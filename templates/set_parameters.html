@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Set your own parameters{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+	<p> parameters</p>
+	<p><i>parametersboost={ "loss":["squared_error"], "learning_rate":[0.1,0.5], "n_estimators":[120], "subsample":[0.5,1.0]}</i></p>
+	<p>LOSS :</p>
+	<p><input type="text" name="loss"/></p><br>
+
+	<p>LEARNING RATE:</p>
+	<label for="learningrtsup">Upper bound :<label></label><br>
+	<p><input type="number" step="0.01" id= "learningrtsup" name="learningrtsup"/></p>
+	<label for="learningrtinf">Lower bound :<label></label><br>
+	<p><input type="number" step="0.01" id= "learningrtinf" name="learningrtinf"/></p><br>
+	
+	<p>NUMBER OF ESTIMATORS :</p>
+	<p><input type="number" name="estimators"/></p><br>
+	
+	<p>SUBSAMPLE :</p>
+	<p>Upper bound :</p>
+	<p><input type="number" step="0.01" name="subsamplesup"/></p>
+	<p>Lower bound :</p>
+	<p><input type="number" step="0.01" name="subsampleinf"/></p>
+	
+	<p><input type="submit" value="submit"/></p>
+</form>
+{% endblock %}

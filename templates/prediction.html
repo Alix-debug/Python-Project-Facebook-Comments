@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Results of the prediction</h1>
+
+    <p>Here is the result of the model fitting after you have passed your parameters</p>
+    <p>INPUT PARAMETERS :</p>
+    <p>LOSS : {p1:}</p>
+    <p>LEARNING RATE: [{p2:};{p3:}]</p>
+	<p>NUMBER OF ESTIMATORS : {p4:}</p>
+	<p>SUBSAMPLE : [{p5:};{p6:}]</p><br/>
+
+    <p>RESULTS :</p>
+    <p>gridboost.best_score_ : {p7:}</p>
+    <p>gridboost.best_estimator_: {p8:}</p>	
+	
+    <form action="/Refresh Parameters" method="post">
+        <button name="Prediction" type="submit">Refresh my parameters</button>
+    </form>
+</body>
+</html>
