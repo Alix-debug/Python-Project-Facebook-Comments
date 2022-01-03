@@ -84,12 +84,12 @@ def prediction():#prediction
 		X_test  = scaler.transform(X_test)
 
 		# fit the model on the whole dataset
-		parametersboost={ "loss":[f"{loss}"], "learning_rate":[float(learningrtsup),float(learningrtsup)], "n_estimators":[int(estimators)], "subsample":[float(subsampleinf),float(subsamplesup)]}
+		parametersboost={ "loss":[f"{loss}"], "learning_rate":[float(learningrtinf),float(learningrtsup)], "n_estimators":[int(estimators)], "subsample":[float(subsampleinf),float(subsamplesup)]}
 		algoboost=GradientBoostingRegressor()
 		gridboost = GridSearchCV(algoboost, parametersboost, n_jobs=-1)
 		gridboost.fit(X_train, y_train)		
 		print("Resultat de la prédiction : ", gridboost.best_score_, gridboost.best_estimator_)  
-		result=open("C:/Users/alixp/Programmation/Python_Projects/Facebook_Comments_Project/templates/prediction.html").read().format(p1=loss,p2=learningrtinf,p3=learningrtinf,p4=estimators,p5=subsampleinf,p6=subsamplesup,p7=gridboost.best_score_,p8=gridboost.best_estimator_)
+		result=open("templates/prediction.html").read().format(p1=loss,p2=learningrtinf,p3=learningrtsup,p4=estimators,p5=subsampleinf,p6=subsamplesup,p7=gridboost.best_score_,p8=gridboost.best_estimator_)
 		return result
 
 	else:
