@@ -16,7 +16,7 @@ You can run the Flask App by using git command : python MyFlaskApp.py in a git t
 
 The project is composed by :
 - a Jupyter notebook and its HTML for more convienency. 
-*To see the html file correctly please go on https://htmlpreview.github.io  and enter the HTML URL of Facebook_Python_Project.html
+*To see the html file correctly please go on https://htmlpreview.github.io  and enter the HTML URL of Facebook_Python_Project.cd Pr html*
 - You will find a flask application as well name under MyFlaskApp.py
 - The project report under pdf format
 
