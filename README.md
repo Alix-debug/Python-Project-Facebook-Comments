@@ -2,7 +2,7 @@
 
 > Authors Alix PETITCOL - Marine SUBLET 
 
-*This project is made within the python course in Year 4 (Data science and artificial intelligence major) at @ESILV - Engineering school*
+*This project is made within the python course in Year 4 (Data science and artificial intelligence major) at [ESILV](https://www.esilv.fr/) - Engineering school*
 
 > Packages required
 >
