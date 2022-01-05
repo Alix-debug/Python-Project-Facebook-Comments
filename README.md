@@ -10,15 +10,24 @@
 > - For the Prediction : Sklearn
 > - For the API : Flask 
 
-You can run the Flask App by using git command : python MyFlaskApp.py in a git terminal. *[In the Facebook_Comments_Project folder]*
+
+Instruction :
+
+To run the project with git bash: 
+1) go into Facebook_Comments_Project folder  
+2) activate the virtual environment with $ cd Scripts then $ . activate
+3) return into Facebook_Comments_Project folder (cd ..)
+4) verify that all the packages were installed (if not: install flask, pandas, seaborn, matplotlib and the other modules with pip install command)
+
+Then you can run the Flask App by using git bash command: $ python MyFlaskApp.py in the terminal. 
 
 ## Content of work delivered
 
 The project is composed by :
-- a Jupyter notebook and its HTML for more convienency. 
-*To see the html file correctly please go on https://htmlpreview.github.io  and enter the HTML URL of Facebook_Python_Project.cd Pr html*
-- You will find a flask application as well name under MyFlaskApp.py
-- The project report under pdf format
+- a Jupyter notebook and its HTML for more convenience. 
+*To see the HTML file correctly please go on https://htmlpreview.github.io  and enter the HTML URL of Facebook_Python_Project.html > raw*
+- You will find a flask application  name under MyFlaskApp.py
+- The project report under PDF format
 
 ## Project Description
 
