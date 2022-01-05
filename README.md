@@ -6,7 +6,7 @@
 
 > Packages required
 >
-> - For the visualization : Pandas, Seaborn, Matplotlib, Pygal, Wordcloud, Plotly)
+> - For the visualization : Pandas, Seaborn, Matplotlib, Pygal, Wordcloud, Plotly
 > - For the Prediction : Sklearn
 > - For the API : Flask 
 
