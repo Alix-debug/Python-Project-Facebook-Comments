@@ -45,7 +45,7 @@ The dataset contains 5 variants of data, however, for our complete study we have
 
 ## Visualization Study
 
-*For some reasons, Most of our graphics were not displayed when you visualize the jupyter notebook on the git hub, so we put instead pictures of the expected graphics. However don’t hesitate to download the notebook and execute cell if you want to be able to interact with the graphs*
+*For some reasons, Most of our graphics were not displayed when you visualize the jupyter notebook on the git hub, so we put instead pictures of the expected graphics. An Alternative to interact with graphics is to used the HTML file provide **see section "Content of work delivered"**. However don’t hesitate to download the notebook and execute cells if you want to be able to interact with the graphs*
 
 In the second part of the jupyter notebook, you will find the visualization study of the dataset. 
 This section is delimitated into two main parts, the first one contains general visualizations of the dataset and the second focuses on some specific features.
